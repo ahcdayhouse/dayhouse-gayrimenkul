@@ -1,0 +1,54 @@
+{
+  "index.html": {
+    "bytes": 16943,
+    "sha256": "b74325248ee8b48fc3fbc5a3473b650780ea2a0f93d2be9ce8403afc3be6e305"
+  },
+  "assets/style.css": {
+    "bytes": 44732,
+    "sha256": "b6a33871553dacedfec46758726eda8be4752afc706aa98fbf4f40ab4b31b402"
+  },
+  "assets/app.js": {
+    "bytes": 6417,
+    "sha256": "0d88a8c3a334cc2dd75566a5c7150d29a9463237adcb4de8c8747a687550845f"
+  },
+  "assets/start-banner.mp4": {
+    "bytes": 3285578,
+    "sha256": "4eed59c467dc3023ef686fd3df19ed7a9010ed02b041026d6011ab8245732c5a"
+  },
+  "assets/banner-villa.mp4": {
+    "bytes": 4515906,
+    "sha256": "3cb6b3c14ced726153e4b4b01c414a90ab9978f93bc40fe232de34dfeba6002d"
+  },
+  "assets/banner-konut.mp4": {
+    "bytes": 9882248,
+    "sha256": "a51ab0b8066954a378cd35680ce3567054c77f0473a7c9c9de8777dbe136ec40"
+  },
+  "assets/banner-apartman.mp4": {
+    "bytes": 5093899,
+    "sha256": "33d1fa6e871d5bf920044f405ce6dd8b89af3b3ef7be2e2e9f79e10ec7eafdd4"
+  },
+  "assets/banner-mustakil.mp4": {
+    "bytes": 4324039,
+    "sha256": "fcd2bcc8605e73af8c13592e5262d118bc6e20a541999659600ac2a6bbe1b576"
+  },
+  "assets/banner-prestij.mp4": {
+    "bytes": 5548874,
+    "sha256": "31ec80dc4e929f94d03c7743023dfb25b4ec5ee8f42853734cad39b5fa236bfa"
+  },
+  "assets/dayhouse-logo-master.png": {
+    "bytes": 849718,
+    "sha256": "70e636f933cc0d74b125c2518575dc0fd54e2cfe56b9856e592f9cc10a2b9fd3"
+  },
+  "assets/og-dayhouse.jpg": {
+    "bytes": 171356,
+    "sha256": "8f1d103878305f420e37dfa26ab25fee5e8c95ae986bb1a0555895746348473b"
+  },
+  "robots.txt": {
+    "bytes": 77,
+    "sha256": "9edde2ac9a4f5f01c108cd1361d6829b4c63f423e6fb550ac3d3b7e19d1fb535"
+  },
+  "sitemap.xml": {
+    "bytes": 222,
+    "sha256": "a82a8e8d42db4994a94a30ca9ef9361d58f496317890875b396b6a4caed213c8"
+  }
+}
