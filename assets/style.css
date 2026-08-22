@@ -1173,3 +1173,99 @@ html{scroll-behavior:smooth}
     url("portal-emlakjet-clean-room.jpg") center/cover no-repeat!important;
   filter:saturate(.94) brightness(.72) contrast(1.04)!important;
 }
+
+
+/* ===== DAY HOUSE / MOBILE FINAL FIX — 23.08.2026 =====
+   Only mobile header/menu + hero selector visibility.
+   Desktop styles are intentionally untouched. */
+@media(max-width:900px){
+
+  /* Brand stays visually anchored to the left instead of centering in the grid cell. */
+  .nav .brand{
+    justify-self:start!important;
+    align-items:flex-start!important;
+  }
+
+  /* Clear compact dropdown menu instead of an unclear full-screen stacked overlay. */
+  .nav .links{
+    inset:76px 12px auto 12px!important;
+    width:auto!important;
+    max-height:calc(100svh - 92px)!important;
+    padding:10px 14px 14px!important;
+    border:1px solid rgba(201,154,57,.28)!important;
+    border-radius:0 0 14px 14px!important;
+    background:rgba(5,6,6,.985)!important;
+    box-shadow:0 18px 50px rgba(0,0,0,.55)!important;
+    overflow-y:auto!important;
+  }
+
+  .nav .links a{
+    display:block!important;
+    color:#f4f0e8!important;
+    font-family:Inter,"Segoe UI",Arial,sans-serif!important;
+    font-size:14px!important;
+    font-weight:600!important;
+    letter-spacing:.9px!important;
+    text-transform:uppercase!important;
+    padding:16px 8px!important;
+    border-bottom:1px solid rgba(201,154,57,.18)!important;
+  }
+
+  .nav .links a:last-child{
+    border-bottom:0!important;
+  }
+
+  .nav .links a.active{
+    color:#d8ad50!important;
+  }
+
+  .nav .links a.active:after,
+  .nav .links a:hover:after{
+    display:none!important;
+  }
+
+  /* All five hero categories remain visible at once on mobile. */
+  .hero-slider{
+    left:0!important;
+    right:0!important;
+    bottom:16px!important;
+    display:grid!important;
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
+    gap:5px!important;
+    overflow:visible!important;
+    padding:0 12px 5px!important;
+    scroll-snap-type:none!important;
+  }
+
+  .slide-dot{
+    min-width:0!important;
+    width:100%!important;
+    flex:none!important;
+  }
+
+  .slide-dot span{
+    margin:6px 0 5px!important;
+  }
+
+  .slide-dot small{
+    display:block!important;
+    width:100%!important;
+    font-size:6.4px!important;
+    line-height:1.15!important;
+    letter-spacing:.45px!important;
+    white-space:nowrap!important;
+    overflow:visible!important;
+  }
+}
+
+@media(max-width:390px){
+  .hero-slider{
+    gap:4px!important;
+    padding-left:9px!important;
+    padding-right:9px!important;
+  }
+  .slide-dot small{
+    font-size:5.9px!important;
+    letter-spacing:.25px!important;
+  }
+}
