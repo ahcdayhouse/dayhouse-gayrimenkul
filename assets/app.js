@@ -3,6 +3,7 @@
   const introVideo = document.getElementById('introVideo');
   const introSkip = document.getElementById('introSkip');
   const introSkipProgress = document.getElementById('introSkipProgress');
+  const introRealestateLabel = document.getElementById('introRealestateLabel');
   const videos = [
     document.getElementById('video1'),
     document.getElementById('video2'),
@@ -70,7 +71,9 @@
   if (introVideo && introSkipProgress) {
     const updateIntroProgress = () => {
       if (introVideo.duration && Number.isFinite(introVideo.duration)) {
-        introSkipProgress.style.width = `${Math.min(100, (introVideo.currentTime / introVideo.duration) * 100)}%`;
+        const introRatio = introVideo.currentTime / introVideo.duration;
+        introSkipProgress.style.width = `${Math.min(100, introRatio * 100)}%`;
+        if (introRealestateLabel && introRatio >= 0.70) introRealestateLabel.classList.add('is-visible');
       }
     };
     introVideo.addEventListener('timeupdate', updateIntroProgress);

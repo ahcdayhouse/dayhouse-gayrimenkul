@@ -1,0 +1,6 @@
+# Day House legacy URL preservation
+/iletisim/ /#iletisim 301
+/hakkimizda/ /#hakkimizda 301
+/ilanlarimiz-2/ /#ilanlarimiz 301
+/projelerimiz/ / 301
+/properties/* /#ilanlarimiz 301

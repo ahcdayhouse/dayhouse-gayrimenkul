@@ -1,54 +1,176 @@
 {
-  "index.html": {
-    "bytes": 16943,
-    "sha256": "b74325248ee8b48fc3fbc5a3473b650780ea2a0f93d2be9ce8403afc3be6e305"
-  },
-  "assets/style.css": {
-    "bytes": 44732,
-    "sha256": "b6a33871553dacedfec46758726eda8be4752afc706aa98fbf4f40ab4b31b402"
-  },
-  "assets/app.js": {
-    "bytes": 6417,
-    "sha256": "0d88a8c3a334cc2dd75566a5c7150d29a9463237adcb4de8c8747a687550845f"
-  },
-  "assets/start-banner.mp4": {
-    "bytes": 3285578,
-    "sha256": "4eed59c467dc3023ef686fd3df19ed7a9010ed02b041026d6011ab8245732c5a"
-  },
-  "assets/banner-villa.mp4": {
-    "bytes": 4515906,
-    "sha256": "3cb6b3c14ced726153e4b4b01c414a90ab9978f93bc40fe232de34dfeba6002d"
-  },
-  "assets/banner-konut.mp4": {
-    "bytes": 9882248,
-    "sha256": "a51ab0b8066954a378cd35680ce3567054c77f0473a7c9c9de8777dbe136ec40"
-  },
-  "assets/banner-apartman.mp4": {
-    "bytes": 5093899,
-    "sha256": "33d1fa6e871d5bf920044f405ce6dd8b89af3b3ef7be2e2e9f79e10ec7eafdd4"
-  },
-  "assets/banner-mustakil.mp4": {
-    "bytes": 4324039,
-    "sha256": "fcd2bcc8605e73af8c13592e5262d118bc6e20a541999659600ac2a6bbe1b576"
-  },
-  "assets/banner-prestij.mp4": {
-    "bytes": 5548874,
-    "sha256": "31ec80dc4e929f94d03c7743023dfb25b4ec5ee8f42853734cad39b5fa236bfa"
-  },
-  "assets/dayhouse-logo-master.png": {
-    "bytes": 849718,
-    "sha256": "70e636f933cc0d74b125c2518575dc0fd54e2cfe56b9856e592f9cc10a2b9fd3"
-  },
-  "assets/og-dayhouse.jpg": {
-    "bytes": 171356,
-    "sha256": "8f1d103878305f420e37dfa26ab25fee5e8c95ae986bb1a0555895746348473b"
-  },
-  "robots.txt": {
-    "bytes": 77,
-    "sha256": "9edde2ac9a4f5f01c108cd1361d6829b4c63f423e6fb550ac3d3b7e19d1fb535"
-  },
-  "sitemap.xml": {
-    "bytes": 222,
-    "sha256": "a82a8e8d42db4994a94a30ca9ef9361d58f496317890875b396b6a4caed213c8"
-  }
+  "project": "Day House Gayrimenkul",
+  "release": "production-final",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 90,
+      "sha256": "6042e897a8b904b7b027d33e632e1fee65a65240047daa912373d0d44cb8f67d"
+    },
+    {
+      "path": "404.html",
+      "size": 1201,
+      "sha256": "871e3c678620c4f737e3c9d4648b944e0e9b8c61f6cc35650bf5a267cd8d7355"
+    },
+    {
+      "path": "README.md",
+      "size": 609,
+      "sha256": "23e86f6e57a0fdbe1808555495dab81b7f7cbfacf2c2623f9e46ef8b01381b9b"
+    },
+    {
+      "path": "YENI_HIZMET_GORSELLERI.txt",
+      "size": 439,
+      "sha256": "a0d0803cfc6c7e51f8fcd34f4f962e9a834611f85525def16894747deab0c7e4"
+    },
+    {
+      "path": "_redirects",
+      "size": 179,
+      "sha256": "a540d352f937609112946d0c7d7b89b2c55592ef88e01ee9231b4bdfd2b16ecd"
+    },
+    {
+      "path": "assets/ahc-digital-solutions-master.png",
+      "size": 996095,
+      "sha256": "91f85180c6408bd20096af34f4e5c7e1f4c77b66fc79f8a131a9fee31d54a48c"
+    },
+    {
+      "path": "assets/app.js",
+      "size": 6640,
+      "sha256": "98276112a7f443d08d80a61339b622361a530c74f64797d20fea8511e0ac906a"
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "size": 19436,
+      "sha256": "3a9c7eda34b8dc732a2087aed003b9a719d21c8cca2aa69ad73a19eb3a5e8ae2"
+    },
+    {
+      "path": "assets/arsa-proje-satislari.jpeg",
+      "size": 2570216,
+      "sha256": "2c5a49a59d60a2580ae8f03d89c686cd119b71de121c1ce45e51e0732f30f938"
+    },
+    {
+      "path": "assets/banner-apartman.mp4",
+      "size": 5093899,
+      "sha256": "33d1fa6e871d5bf920044f405ce6dd8b89af3b3ef7be2e2e9f79e10ec7eafdd4"
+    },
+    {
+      "path": "assets/banner-konut.mp4",
+      "size": 9882248,
+      "sha256": "a51ab0b8066954a378cd35680ce3567054c77f0473a7c9c9de8777dbe136ec40"
+    },
+    {
+      "path": "assets/banner-mustakil.mp4",
+      "size": 4324039,
+      "sha256": "fcd2bcc8605e73af8c13592e5262d118bc6e20a541999659600ac2a6bbe1b576"
+    },
+    {
+      "path": "assets/banner-prestij.mp4",
+      "size": 5548874,
+      "sha256": "31ec80dc4e929f94d03c7743023dfb25b4ec5ee8f42853734cad39b5fa236bfa"
+    },
+    {
+      "path": "assets/banner-villa.mp4",
+      "size": 4515906,
+      "sha256": "3cb6b3c14ced726153e4b4b01c414a90ab9978f93bc40fe232de34dfeba6002d"
+    },
+    {
+      "path": "assets/dayhouse-logo-master.png",
+      "size": 1704793,
+      "sha256": "13c7390f0b0041d0184237644b02072f397dc63c086bed2c5698c8f85735f7bf"
+    },
+    {
+      "path": "assets/emlakjet-logo-master.png",
+      "size": 12325,
+      "sha256": "95aa63273aaa8cf0bf58ad3adae5111fff66f4f5a9809e3ed8ee5cdfce5a6e75"
+    },
+    {
+      "path": "assets/favicon.png",
+      "size": 128994,
+      "sha256": "b0b65600138f4835da9adb91270188910b1b001d0d24d534d8aaa13a1c1c77f2"
+    },
+    {
+      "path": "assets/kentsel-donusum-danismanligi.jpeg",
+      "size": 2829673,
+      "sha256": "6ca4ceb56f82f8ddf1ab8b8d995a5ee90ec336e82777261e1ed21ef8f250dd44"
+    },
+    {
+      "path": "assets/kiralama-hizmetleri.jpeg",
+      "size": 2250534,
+      "sha256": "5c1a52ba1d99429869da2c30e633442b0d6bceb7840d19148dd0a882a3ef5006"
+    },
+    {
+      "path": "assets/konut-alim-satim.jpeg",
+      "size": 2106334,
+      "sha256": "c1f7bf960a7d5737fbbd1050b84fb5a555f7d67811dc27ccf02d895d933d4fd0"
+    },
+    {
+      "path": "assets/og-dayhouse.jpg",
+      "size": 121198,
+      "sha256": "71477d496647aed689b1a0f5dcfd257169a7fa41e4dbb7678c95fa2ff182e25f"
+    },
+    {
+      "path": "assets/portal-emlakjet-clean-room.jpg",
+      "size": 132617,
+      "sha256": "8f43d2d769a00700be994682094f86027d2959f3cc3de376c2e56352f27fed0e"
+    },
+    {
+      "path": "assets/portal-sahibinden-clean-room.jpg",
+      "size": 457904,
+      "sha256": "611292fab7c953459d745a3d1b7382ea078a07b5f4b38532efd445c87ad92609"
+    },
+    {
+      "path": "assets/portfoy-yonetimi.jpeg",
+      "size": 2108333,
+      "sha256": "7018ae9898b473892f2cd56f4b4af973f8920030ca5cbefbfeead3e4a3da5461"
+    },
+    {
+      "path": "assets/service-arsa-ticari.jpg",
+      "size": 2614924,
+      "sha256": "d32932003ffaa41cf9155f9722250446b577a8e6cf9f4445f57d1777b1309ffd"
+    },
+    {
+      "path": "assets/service-danismanlik.jpg",
+      "size": 2102655,
+      "sha256": "71bfccb1af5d38ed99dc5327fa0a9c8f10223f93a002ccbc0fed84243cba640f"
+    },
+    {
+      "path": "assets/service-insaat.jpg",
+      "size": 2412407,
+      "sha256": "288ac68f16fe24f02dc9178dbd6818da9ba7e3ba54b56108b3e6438f6f9a9f34"
+    },
+    {
+      "path": "assets/service-konut.jpeg",
+      "size": 1897782,
+      "sha256": "12f68575c45621ae1a4294944cb38bbf7f2019b52da6d112ceea3fee3a073da8"
+    },
+    {
+      "path": "assets/start-banner.mp4",
+      "size": 3285578,
+      "sha256": "4eed59c467dc3023ef686fd3df19ed7a9010ed02b041026d6011ab8245732c5a"
+    },
+    {
+      "path": "assets/style.css",
+      "size": 43062,
+      "sha256": "c24a27f1615c79219cf19f5a71c4d8feea31c1b1c4aecdcfdba1013ee68e02b6"
+    },
+    {
+      "path": "assets/tapu-resmi-surecler.jpeg",
+      "size": 2126635,
+      "sha256": "35f11ce1206ec2a3a0856d28c43e31f61033d5d4c2fa94ae7e0daff2d4a77df6"
+    },
+    {
+      "path": "index.html",
+      "size": 24540,
+      "sha256": "baf3eb5b9ccbd25c1b58dac500ef365f064455f65acbd10cd5c47eb9318cb33d"
+    },
+    {
+      "path": "robots.txt",
+      "size": 77,
+      "sha256": "9edde2ac9a4f5f01c108cd1361d6829b4c63f423e6fb550ac3d3b7e19d1fb535"
+    },
+    {
+      "path": "sitemap.xml",
+      "size": 222,
+      "sha256": "a82a8e8d42db4994a94a30ca9ef9361d58f496317890875b396b6a4caed213c8"
+    }
+  ]
 }

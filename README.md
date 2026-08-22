@@ -1,18 +1,24 @@
-# Day House Gayrimenkul — Release Master V1
+# Day House Gayrimenkul — Production Final
 
-Production static website for Day House Gayrimenkul.
+Static production website prepared for GitHub + Cloudflare Pages.
 
-## Deploy structure
-- `index.html` — homepage
-- `assets/` — CSS, JS, images, video, social preview assets
-- `robots.txt`
-- `sitemap.xml`
+## Root files
+- index.html
+- assets/
+- robots.txt
+- sitemap.xml
+- _redirects
+- 404.html
 
-## Hosting target
-Cloudflare Pages via GitHub.
-
-## Domain
+## Production domain
 https://dayhousegayrimenkul.com/
 
-## Important
-This is the release master. Deploy from repository root; do not nest these files inside another folder.
+## Deployment
+Cloudflare Pages, repository root as output directory. No build command is required.
+
+## Release notes
+- Open Graph / WhatsApp preview asset included.
+- Legacy URL redirects included.
+- Favicon and Apple Touch Icon use transparent PNG assets.
+- Unused legacy portal/logo assets removed.
+- Existing desktop/mobile visual layout preserved.
