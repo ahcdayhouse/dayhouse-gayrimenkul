@@ -1175,97 +1175,154 @@ html{scroll-behavior:smooth}
 }
 
 
-/* ===== DAY HOUSE / MOBILE FINAL FIX — 23.08.2026 =====
-   Only mobile header/menu + hero selector visibility.
-   Desktop styles are intentionally untouched. */
+
+
+/* ===== DAY HOUSE / MOBILE HEADER + HERO NAV FINAL FIX =====
+   Scope: mobile header/navigation and 5 hero selectors only. */
 @media(max-width:900px){
 
-  /* Brand stays visually anchored to the left instead of centering in the grid cell. */
-  .nav .brand{
-    justify-self:start!important;
-    align-items:flex-start!important;
+  /* Header: logo left, direct nav visible, hamburger removed */
+  .nav{
+    display:grid!important;
+    grid-template-columns:auto 1fr!important;
+    align-items:center!important;
+    gap:10px!important;
+    padding:10px 12px!important;
   }
 
-  /* Clear compact dropdown menu instead of an unclear full-screen stacked overlay. */
+  .nav .brand{
+    justify-self:start!important;
+    align-self:center!important;
+    margin:0!important;
+  }
+
+  .nav .brand img{
+    display:block!important;
+    max-width:112px!important;
+    height:auto!important;
+    margin:0!important;
+  }
+
+  .mobile-menu-toggle{
+    display:none!important;
+  }
+
   .nav .links{
-    inset:76px 12px auto 12px!important;
+    position:static!important;
+    inset:auto!important;
     width:auto!important;
-    max-height:calc(100svh - 92px)!important;
-    padding:10px 14px 14px!important;
-    border:1px solid rgba(201,154,57,.28)!important;
-    border-radius:0 0 14px 14px!important;
-    background:rgba(5,6,6,.985)!important;
-    box-shadow:0 18px 50px rgba(0,0,0,.55)!important;
-    overflow-y:auto!important;
+    max-height:none!important;
+    overflow:visible!important;
+    display:flex!important;
+    flex-direction:row!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:8px!important;
+    padding:0!important;
+    margin:0!important;
+    border:0!important;
+    border-radius:0!important;
+    background:transparent!important;
+    box-shadow:none!important;
+    opacity:1!important;
+    visibility:visible!important;
+    pointer-events:auto!important;
+    transform:none!important;
   }
 
   .nav .links a{
-    display:block!important;
-    color:#f4f0e8!important;
-    font-family:Inter,"Segoe UI",Arial,sans-serif!important;
-    font-size:14px!important;
+    display:inline-flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    padding:4px 0!important;
+    margin:0!important;
+    border:0!important;
+    color:#f3eee4!important;
+    font-size:8px!important;
+    line-height:1!important;
     font-weight:600!important;
-    letter-spacing:.9px!important;
-    text-transform:uppercase!important;
-    padding:16px 8px!important;
-    border-bottom:1px solid rgba(201,154,57,.18)!important;
-  }
-
-  .nav .links a:last-child{
-    border-bottom:0!important;
+    letter-spacing:.15px!important;
+    text-transform:none!important;
+    white-space:nowrap!important;
   }
 
   .nav .links a.active{
     color:#d8ad50!important;
   }
 
-  .nav .links a.active:after,
-  .nav .links a:hover:after{
+  .nav .links a:after{
     display:none!important;
   }
 
-  /* All five hero categories remain visible at once on mobile. */
+  /* Hero selectors: all five visible at once */
   .hero-slider{
     left:0!important;
     right:0!important;
-    bottom:16px!important;
+    width:100%!important;
+    bottom:12px!important;
     display:grid!important;
     grid-template-columns:repeat(5,minmax(0,1fr))!important;
-    gap:5px!important;
+    gap:3px!important;
+    padding:0 6px 4px!important;
+    margin:0!important;
     overflow:visible!important;
-    padding:0 12px 5px!important;
-    scroll-snap-type:none!important;
+    transform:none!important;
   }
 
   .slide-dot{
-    min-width:0!important;
     width:100%!important;
+    min-width:0!important;
+    max-width:none!important;
+    margin:0!important;
+    padding:0 1px!important;
     flex:none!important;
   }
 
   .slide-dot span{
-    margin:6px 0 5px!important;
+    width:100%!important;
+    margin:5px 0 4px!important;
   }
 
   .slide-dot small{
     display:block!important;
     width:100%!important;
-    font-size:6.4px!important;
-    line-height:1.15!important;
-    letter-spacing:.45px!important;
+    margin:0!important;
+    font-size:6px!important;
+    line-height:1.05!important;
+    letter-spacing:.1px!important;
+    text-align:center!important;
     white-space:nowrap!important;
     overflow:visible!important;
   }
 }
 
-@media(max-width:390px){
-  .hero-slider{
-    gap:4px!important;
-    padding-left:9px!important;
-    padding-right:9px!important;
+@media(max-width:430px){
+  .nav{
+    gap:7px!important;
+    padding-left:8px!important;
+    padding-right:8px!important;
   }
+
+  .nav .brand img{
+    max-width:96px!important;
+  }
+
+  .nav .links{
+    gap:5px!important;
+  }
+
+  .nav .links a{
+    font-size:7.2px!important;
+    letter-spacing:0!important;
+  }
+
+  .hero-slider{
+    gap:2px!important;
+    padding-left:4px!important;
+    padding-right:4px!important;
+  }
+
   .slide-dot small{
-    font-size:5.9px!important;
-    letter-spacing:.25px!important;
+    font-size:5.6px!important;
   }
 }
