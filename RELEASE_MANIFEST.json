@@ -1,11 +1,15 @@
 {
   "project": "Day House Gayrimenkul",
-  "release": "production-final",
+  "release": "2026-09-01-local-cms-seo-production-ready",
+  "production_domain": "https://dayhousegayrimenkul.com/",
+  "listing_data": "data/ilanlar.json",
+  "listing_media": "assets/ilanlar/",
+  "listing_url_pattern": "/ilan/{il}/{ilce}/{mahalle}/{islem-tip}/{slug}/",
   "files": [
     {
       "path": ".gitignore",
-      "size": 90,
-      "sha256": "6042e897a8b904b7b027d33e632e1fee65a65240047daa912373d0d44cb8f67d"
+      "size": 190,
+      "sha256": "6d4ba539c26a8224f9b0039a2a753c8d98b61781bee9c44a9eebd6024e0ca255"
     },
     {
       "path": "404.html",
@@ -14,13 +18,13 @@
     },
     {
       "path": "README.md",
-      "size": 609,
-      "sha256": "23e86f6e57a0fdbe1808555495dab81b7f7cbfacf2c2623f9e46ef8b01381b9b"
+      "size": 1235,
+      "sha256": "be0033d03c8efda0e7376d551ba822a468b09ddb098e1f8e8477f18fcc224cf4"
     },
     {
-      "path": "YENI_HIZMET_GORSELLERI.txt",
-      "size": 439,
-      "sha256": "a0d0803cfc6c7e51f8fcd34f4f962e9a834611f85525def16894747deab0c7e4"
+      "path": "_headers",
+      "size": 447,
+      "sha256": "9e5490a936190bef8fb08f8b48d9dc2f30230750857d5f9b1bb259eead5dda4b"
     },
     {
       "path": "_redirects",
@@ -34,8 +38,8 @@
     },
     {
       "path": "assets/app.js",
-      "size": 6640,
-      "sha256": "98276112a7f443d08d80a61339b622361a530c74f64797d20fea8511e0ac906a"
+      "size": 5299,
+      "sha256": "694e2781b05c77ffbfb2e999327177918e5e65591876038fdf248cbac2ee2357"
     },
     {
       "path": "assets/apple-touch-icon.png",
@@ -78,6 +82,11 @@
       "sha256": "13c7390f0b0041d0184237644b02072f397dc63c086bed2c5698c8f85735f7bf"
     },
     {
+      "path": "assets/detail-local.js",
+      "size": 11654,
+      "sha256": "a3abfcf6e5cdcaebd48c7573b2245948af8123ed19536f50437327b147db725f"
+    },
+    {
       "path": "assets/emlakjet-logo-master.png",
       "size": 12325,
       "sha256": "95aa63273aaa8cf0bf58ad3adae5111fff66f4f5a9809e3ed8ee5cdfce5a6e75"
@@ -86,6 +95,11 @@
       "path": "assets/favicon.png",
       "size": 128994,
       "sha256": "b0b65600138f4835da9adb91270188910b1b001d0d24d534d8aaa13a1c1c77f2"
+    },
+    {
+      "path": "assets/ilanlar/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "assets/kentsel-donusum-danismanligi.jpeg",
@@ -103,9 +117,19 @@
       "sha256": "c1f7bf960a7d5737fbbd1050b84fb5a555f7d67811dc27ccf02d895d933d4fd0"
     },
     {
+      "path": "assets/listings-local.js",
+      "size": 3104,
+      "sha256": "b6208a37b70edde43bff0b9006ced2f6344fe43e41f09c28b8818e5e5171b93c"
+    },
+    {
+      "path": "assets/location-data.js",
+      "size": 3912,
+      "sha256": "5568fe8842ce2835db34e7739e7da922b05fcba19aa8e8a80062e8026c64bcad"
+    },
+    {
       "path": "assets/og-dayhouse.jpg",
-      "size": 121198,
-      "sha256": "71477d496647aed689b1a0f5dcfd257169a7fa41e4dbb7678c95fa2ff182e25f"
+      "size": 1817489,
+      "sha256": "af5af61c083e107bd2acafbbde173c6e01ad8f8b6f3d29d847d8e06cf48f7dc4"
     },
     {
       "path": "assets/portal-emlakjet-clean-room.jpg",
@@ -116,6 +140,16 @@
       "path": "assets/portal-sahibinden-clean-room.jpg",
       "size": 457904,
       "sha256": "611292fab7c953459d745a3d1b7382ea078a07b5f4b38532efd445c87ad92609"
+    },
+    {
+      "path": "assets/portfolio-local.css",
+      "size": 53323,
+      "sha256": "3e391c9282fb8cc62f7eff0cdc68b2d7c0326a9c7e0c9eff7ea39d97f3bf8da1"
+    },
+    {
+      "path": "assets/portfolio-local.js",
+      "size": 1976,
+      "sha256": "56269123d185bc909b713e2d9dbd5856e5a4596c9669eccdf7ae7a8946051cb7"
     },
     {
       "path": "assets/portfoy-yonetimi.jpeg",
@@ -149,8 +183,8 @@
     },
     {
       "path": "assets/style.css",
-      "size": 43062,
-      "sha256": "c24a27f1615c79219cf19f5a71c4d8feea31c1b1c4aecdcfdba1013ee68e02b6"
+      "size": 46363,
+      "sha256": "fdf729fd1f4cea6f730a9006b4e2307b00c4b2833187cebdd995219436afb7bf"
     },
     {
       "path": "assets/tapu-resmi-surecler.jpeg",
@@ -158,19 +192,39 @@
       "sha256": "35f11ce1206ec2a3a0856d28c43e31f61033d5d4c2fa94ae7e0daff2d4a77df6"
     },
     {
+      "path": "data/ilanlar.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "hizmetler.html",
+      "size": 27513,
+      "sha256": "92c1dd590a47c4c2bea0ce43eb6f33a0b39e6f8513d3caa3f1db7d40efe63bd5"
+    },
+    {
+      "path": "ilan.html",
+      "size": 1318,
+      "sha256": "08d4e34f2321d90380b77bdd729d5c1c2de8bda82236f474f518e380f0f4294e"
+    },
+    {
+      "path": "ilanlar.html",
+      "size": 3246,
+      "sha256": "e1053b9a77aa757ebca655b6796b89a6df61e5ee843eb1e932bd9bcb2d219fc9"
+    },
+    {
       "path": "index.html",
-      "size": 24540,
-      "sha256": "baf3eb5b9ccbd25c1b58dac500ef365f064455f65acbd10cd5c47eb9318cb33d"
+      "size": 28106,
+      "sha256": "b04f54209592afdd603a4f448580a110c2d8046e88a9d59052fab9119902c5a5"
     },
     {
       "path": "robots.txt",
-      "size": 77,
-      "sha256": "9edde2ac9a4f5f01c108cd1361d6829b4c63f423e6fb550ac3d3b7e19d1fb535"
+      "size": 115,
+      "sha256": "2bad4787f134f9583b8ed14cfada26978e44eeec67433a50b20915becd346ce4"
     },
     {
       "path": "sitemap.xml",
-      "size": 222,
-      "sha256": "a82a8e8d42db4994a94a30ca9ef9361d58f496317890875b396b6a4caed213c8"
+      "size": 307,
+      "sha256": "8e779a70a25eca9167dda2887839aeb515e7113e1468150bfe58aea386b13f6a"
     }
   ]
 }

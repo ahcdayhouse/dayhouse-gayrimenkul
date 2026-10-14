@@ -8,3 +8,9 @@ Thumbs.db
 *.tmp
 *.bak
 *.zip
+
+# Local Day House CMS tools (never deploy)
+_local/
+START_DAYHOUSE.bat
+YAYINLA.bat
+README_DEPLOY.md

@@ -1326,3 +1326,17 @@ html{scroll-behavior:smooth}
     font-size:5.6px!important;
   }
 }
+
+
+/* ===== DAY HOUSE / FOOTER AHC ICON SIZE MATCH ===== */
+/* Day House logosunun yatay oranı nedeniyle AHC ikonunu görsel olarak aynı ölçekte tutar. */
+.site-footer .footer-ahc-logo{
+  width:62px!important;
+  height:62px!important;
+}
+@media(max-width:520px){
+  .site-footer .footer-ahc-logo{
+    width:51px!important;
+    height:51px!important;
+  }
+}

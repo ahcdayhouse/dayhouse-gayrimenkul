@@ -450,7 +450,8 @@
 }
 </script>
 
-<link rel="stylesheet" href="assets/style.css?v=20260823-1">
+<link rel="stylesheet" href="assets/style.css?v=20260901-prod">
+<link rel="stylesheet" href="assets/portfolio-local.css?v=20260901-prod">
 </head>
 <body>
 <div class="video-intro" id="videoIntro" aria-label="Day House açılış filmi">
@@ -464,12 +465,12 @@
   </button>
 </div>
 <nav class="nav">
-  <a class="brand" href="/">
+  <a class="brand" href="index.html#hero">
     <img src="assets/dayhouse-logo-master.png" alt="Day House">
   </a>
   <div class="links" id="mainNavLinks">
-    <a class="active" href="#hero">Anasayfa</a>
-    <a href="#hizmetlerimiz">Hizmetlerimiz</a>
+    <a class="active" href="index.html#hero">Anasayfa</a>
+    <a href="hizmetler.html">Hizmetlerimiz</a>
       <a href="#ilanlarimiz">İlanlarımız</a>
     <a href="#hakkimizda">Hakkımızda</a>
     <a href="#iletisim">İletişim</a>
@@ -496,225 +497,43 @@
     <button class="slide-dot" data-slide="1"><span><i></i></span><small>PREMİUM KONUT</small></button>
     <button class="slide-dot" data-slide="2"><span><i></i></span><small>APARTMAN</small></button>
     <button class="slide-dot" data-slide="3"><span><i></i></span><small>MÜSTAKİL</small></button>
-    <button class="slide-dot" data-slide="4"><span><i></i></span><small>PRESTİJ</small></button>
+    <button class="slide-dot" data-slide="4"><span><i></i></span><small>PRESTİJ</small></buttopan>
+  </div>
+</section>
+<section class="property-search-home" id="portfoy-arama" aria-label="Day House ilan arama">
+  <div class="property-search-shell">
+    <div class="property-search-title"><small>DAY HOUSE PORTFÖY</small><h2>Aradığınız gayrimenkulü <em>bulun.</em></h2></div>
+    <form class="property-filter" id="homePropertyFilter">
+      <label><span>İŞLEM</span><select name="transaction"><option value="">Tümü</option><option>Satılık</option><option>Kiralık</option></select></label>
+      <label><span>GAYRİMENKUL TİPİ</span><select name="type"><option value="">Tümü</option><option>Daire</option><option>Villa</option><option>Müstakil Ev</option><option>Arsa</option><option>İşyeri</option><option>Ofis</option><option>Dükkan</option><option>Depo</option><option>Fabrika</option><option>Bina</option><option>Rezidans</option><option>Turistik Tesis</option><option>Diğer</option></select></label>
+      <label><span>İL</span><input name="city" placeholder="Tümü" autocomplete="off" spellcheck="false"></label>
+      <label><span>İLÇE</span><input name="district" placeholder="Tümü" autocomplete="off" spellcheck="false"></label>
+      <label><span>MAHALLE / BÖLGE</span><input name="neighborhood" placeholder="Tümü" autocomplete="off" spellcheck="false"></label>
+      <label class="search-query"><span>ARAMA</span><input name="q" placeholder="İlan no, mahalle veya anahtar kelime"></label>
+      <button type="submit">İLANLARI ARA <b>→</b></button>
+    </form>
+  </div>
+  <div id="ilanlarimiz" class="six-listing-anchor" aria-hidden="true"></div>
+  <div class="featured-home" id="featuredHome" hidden>
+    <div class="featured-home-head"><small>ÖNE ÇIKAN DAY HOUSE İLANLARI</small><a href="ilanlar.html">TÜM İLANLARI GÖR →</a></div>
+    <div class="featured-home-grid" id="featuredHomeGrid"></div>
   </div>
 </section>
 
-<section class="services-showcase" id="hizmetlerimiz">
-  <div class="services-intro">
-    <small>HİZMETLERİMİZ</small>
-    <h2>Gayrimenkulün Her Aşamasında <em>Yanınızdayız.</em></h2>
-    <p>Danışmanlıktan yatırıma, alım-satımdan resmî süreçlere kadar gayrimenkulün her aşamasında profesyonel çözümler sunuyoruz.</p>
-    <div class="services-ornament"><span></span><i>◆</i><span></span></div>
-  </div>
 
-  <!-- 01 / MEVCUT GÖRSEL KORUNDU -->
-  <div class="service-showcase-card image-left">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/konut-alim-satim.jpeg" alt="Konut alım ve satım hizmetleri">
-    </div>
-    <div class="service-content">
-      <h3>Konut Alım<br><em>& Satım</em></h3>
-      <div class="service-rule"></div>
-      <p>Daire, villa ve müstakil konutlarda ihtiyaçlarınıza ve bütçenize uygun seçenekleri değerlendiriyor; alıcı ile satıcıyı doğru zeminde buluşturarak teklif, tapu hazırlığı ve satışın tamamlanmasına kadar süreci koordineli şekilde takip ediyoruz.</p>
-      <div class="service-tags">
-        <span>DAİRE</span>
-        <span>VİLLA & MÜSTAKİL EV</span>
-        <span>KONUT ALIMI</span>
-        <span>KONUT SATIŞI</span>
-        <span>ALICI & SATICI EŞLEŞTİRME</span>
-        <span>TAPU & SATIŞ SÜRECİ</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-right">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/service-arsa-ticari.jpg" alt="Ticari gayrimenkul">
-    </div>
-    <div class="service-content">
-      <h3>Ticari<br><em>Gayrimenkul</em></h3>
-      <div class="service-rule"></div>
-      <p>Dükkan, ofis, fabrika, depo, arsa ve iş merkezi gibi ticari taşınmazlarda lokasyon, kullanım amacı, piyasa değeri ve yatırım potansiyelini birlikte değerlendiriyor; alım, satım ve kiralama süreçlerini profesyonel danışmanlıkla yönetiyoruz.</p>
-      <div class="service-tags">
-        <span>DÜKKAN & İŞ YERİ</span>
-        <span>OFİS</span>
-        <span>FABRİKA & DEPO</span>
-        <span>ARSA</span>
-        <span>İŞ MERKEZİ</span>
-        <span>ALIM · SATIM · KİRALAMA</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-left">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/kiralama-hizmetleri.jpeg" alt="Kiralama hizmetleri">
-    </div>
-    <div class="service-content">
-      <h3>Kiralama<br><em>Hizmetleri</em></h3>
-      <div class="service-rule"></div>
-      <p>Konut ve iş yeri kiralamalarında kiracı ile mülk sahibini doğru kriterlerle eşleştiriyor; görüşme, kira sözleşmesi ve teslim aşamalarının düzenli, şeffaf ve kontrollü ilerlemesine profesyonel destek sağlıyoruz.</p>
-      <div class="service-tags">
-        <span>KONUT KİRALAMA</span>
-        <span>İŞ YERİ KİRALAMA</span>
-        <span>KİRACI & MÜLK SAHİBİ EŞLEŞTİRME</span>
-        <span>KİRA SÖZLEŞMESİ</span>
-        <span>TESLİM SÜRECİ</span>
-        <span>KİRALAMA DANIŞMANLIĞI</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-right construction-card">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/service-insaat.jpg" alt="Gayrimenkul değerleme">
-    </div>
-    <div class="service-content">
-      <h3>Gayrimenkul<br><em>Değerleme</em></h3>
-      <div class="service-rule"></div>
-      <p>Taşınmazın konumu, nitelikleri, bölgesel emsalleri ve güncel piyasa koşullarını birlikte inceleyerek doğru satış fiyatı, kira rayici ve yatırım geri dönüşü konusunda karar vermenizi destekleyecek kapsamlı bir piyasa değerlendirmesi sunuyoruz.</p>
-      <div class="service-tags">
-        <span>EMSAL SATIŞ İNCELEMESİ</span>
-        <span>DOĞRU SATIŞ FİYATI</span>
-        <span>KİRA RAYİCİ</span>
-        <span>PİYASA KARŞILAŞTIRMASI</span>
-        <span>YATIRIM GERİ DÖNÜŞÜ</span>
-        <span>BÖLGE DEĞERLENDİRMESİ</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-left">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/service-konut.jpeg" alt="Yatırım danışmanlığı">
-    </div>
-    <div class="service-content">
-      <h3>Yatırım<br><em>Danışmanlığı</em></h3>
-      <div class="service-rule"></div>
-      <p>Yatırım hedeflerinize uygun bölge ve gayrimenkul türlerini; piyasa koşulları, kira getirisi, değer artışı potansiyeli ve riskleri birlikte değerlendirerek karşılaştırıyor, karar sürecinize stratejik bir bakış açısı kazandırıyoruz.</p>
-      <div class="service-tags">
-        <span>BÖLGE SEÇİMİ & ANALİZİ</span>
-        <span>ARSA · KONUT · TİCARİ KARŞILAŞTIRMA</span>
-        <span>KİRA GETİRİSİ</span>
-        <span>DEĞER ARTIŞI POTANSİYELİ</span>
-        <span>RİSK DEĞERLENDİRMESİ</span>
-        <span>YATIRIM STRATEJİSİ</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-right">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/kentsel-donusum-danismanligi.jpeg" alt="Kentsel dönüşüm danışmanlığı">
-    </div>
-    <div class="service-content">
-      <h3>Kentsel Dönüşüm<br><em>Danışmanlığı</em></h3>
-      <div class="service-rule"></div>
-      <p>Riskli yapı sürecinden malik haklarına, arsa payı ve bağımsız bölüm değerlendirmelerinden müteahhit ve proje seçeneklerinin karşılaştırılmasına kadar kentsel dönüşüm sürecini gayrimenkul perspektifiyle ele alıyor, karar aşamalarında danışmanlık sunuyoruz.</p>
-      <div class="service-tags">
-        <span>RİSKLİ YAPI SÜRECİ</span>
-        <span>MALİK HAKLARI</span>
-        <span>ARSA PAYI</span>
-        <span>BAĞIMSIZ BÖLÜM DEĞERLENDİRMESİ</span>
-        <span>MÜTEAHHİT & PROJE SEÇENEKLERİ</span>
-        <span>DÖNÜŞÜM SÜRECİ DANIŞMANLIĞI</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-left">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/arsa-proje-satislari.jpeg" alt="Arsa ve proje satışları">
-    </div>
-    <div class="service-content">
-      <h3>Arsa & Proje<br><em>Satışları</em></h3>
-      <div class="service-rule"></div>
-      <p>Arsa pazarlamasından yeni konut ve müteahhit projelerine kadar satış sürecini hedef kitle, yatırım potansiyeli ve doğru konumlandırma üzerinden planlıyor; yatırımcı ve alıcı eşleştirmesini profesyonel şekilde destekliyoruz.</p>
-      <div class="service-tags">
-        <span>ARSA PAZARLAMA</span>
-        <span>ARSA ALIM & SATIM</span>
-        <span>YENİ KONUT PROJELERİ</span>
-        <span>MÜTEAHHİT PROJELERİ</span>
-        <span>PROJE SATIŞ ORGANİZASYONU</span>
-        <span>YATIRIMCI & ALICI EŞLEŞTİRME</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-right">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/service-danismanlik.jpg" alt="Gayrimenkul danışmanlığı">
-    </div>
-    <div class="service-content">
-      <h3>Gayrimenkul<br><em>Pazarlaması</em></h3>
-      <div class="service-rule"></div>
-      <p>Portföyünüzü yalnızca yayına almakla kalmıyor; profesyonel sunum, doğru ilan dili ve dijital görünürlük stratejileriyle hedef kitlesine güçlü biçimde ulaştırıyoruz. Fotoğraf ve video içeriklerinden ilan hazırlığına, sosyal medya ve Google İşletme Profili çalışmalarından portföy tanıtımına kadar pazarlama sürecini bütüncül şekilde yönetiyoruz.</p>
-      <div class="service-tags">
-        <span>PROFESYONEL FOTOĞRAF & VİDEO</span>
-        <span>İLAN HAZIRLAMA</span>
-        <span>SOSYAL MEDYA TANITIMI</span>
-        <span>GOOGLE İŞLETME PROFİLİ</span>
-        <span>PORTFÖY TANITIMI</span>
-        <span>MÜŞTERİ AĞI OLUŞTURMA</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-left">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/tapu-resmi-surecler.jpeg" alt="Tapu ve resmi süreçlerde danışmanlık">
-    </div>
-    <div class="service-content">
-      <h3>Tapu & Resmî Süreçlerde<br><em>Danışmanlık</em></h3>
-      <div class="service-rule"></div>
-      <p>Gayrimenkul işlemleri öncesinde tapu hazırlığı; ipotek, şerh ve haciz kayıtları; kat mülkiyeti veya kat irtifakı ile imar ve yapı durumuna ilişkin bilgilerin ilgili resmî kanallardan kontrol edilmesi süreçlerinde danışmanlık ve koordinasyon desteği sunuyoruz.</p>
-      <div class="service-tags">
-        <span>TAPU İŞLEMLERİNE HAZIRLIK</span>
-        <span>İPOTEK · ŞERH · HACİZ</span>
-        <span>KAT MÜLKİYETİ</span>
-        <span>KAT İRTİFAKI</span>
-        <span>İMAR DURUMU</span>
-        <span>YAPI DURUMU</span>
-      </div>
-    </div>
-  </div>
-
-<div class="service-showcase-card image-right">
-    <div class="service-visual">
-      <img loading="lazy" decoding="async" src="assets/portfoy-yonetimi.jpeg" alt="Portföy yönetimi">
-    </div>
-    <div class="service-content">
-      <h3>Portföy<br><em>Yönetimi</em></h3>
-      <div class="service-rule"></div>
-      <p>Mülkünüzün pazarlama ve kiralama süreçlerini düzenli şekilde yönetiyor; uygun kiracının bulunmasından kira takibi ve yenileme süreçlerine, gerektiğinde yeniden pazarlamaya kadar portföyünüzün sürekliliğini destekliyoruz.</p>
-      <div class="service-tags">
-        <span>MÜLK YÖNETİMİ</span>
-        <span>KİRACI BULMA</span>
-        <span>KİRA TAKİBİ</span>
-        <span>KİRA YENİLEME</span>
-        <span>YENİDEN PAZARLAMA</span>
-        <span>MÜLK SAHİBİ DESTEĞİ</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="services-end">
-    <span></span>
-    <p>Gayrimenkulde doğru karar, doğru analiz ve doğru süreç yönetimiyle başlar.</p>
-    <span></span>
-  </div>
-</section>
-
-<section class="portal-listings" id="ilanlarimiz">
-  <div class="portal-listings-head">
-    <small>İLANLARIMIZ</small>
-    <h2>Güncel Portföyümüzü <em>Keşfedin.</em></h2>
-    <p>Satılık ve kiralık gayrimenkullerimizi tercih ettiğiniz platform üzerinden inceleyebilirsiniz.</p>
-    <div class="portal-head-line"><span></span><i>◆</i><span></span></div>
-  </div>
-
+<section class="portal-listings" id="portfoy-kanallari">
   <div class="portal-grid">
+    <a class="portal-card dayhouse-card" href="ilanlar.html">
+      <div class="portal-card-bg portal-dayhouse-bg"></div>
+      <div class="portal-card-shade"></div>
+      <div class="portal-card-content">
+        <div class="portal-badge">GÜNCEL PORTFÖY</div>
+        <h3>İlanlarımızı keşfedin.</h3>
+        <p>Aktif satılık ve kiralık portföylerimizi doğrudan Day House web sitesi üzerinden inceleyin.</p>
+        <span class="portal-action">Day House İlanları <b>→</b></span>
+      </div>
+    </a>
+
     <a class="portal-card sahibinden-card"
        href="https://dayhousegayrimenkul.sahibinden.com/"
        target="_blank" rel="noopener noreferrer">
@@ -744,7 +563,6 @@
     </a>
   </div>
 
-  <p class="portal-note">Portföylerimiz ilgili platformlarda düzenli olarak güncellenmektedir.</p>
 </section>
 
 <section class="about-showcase" id="hakkimizda">
@@ -835,15 +653,11 @@
         <img loading="lazy" decoding="async" class="footer-ahc-logo" src="assets/ahc-digital-solutions-master.png" alt="AHC Digital Solutions">
       </a>
     </div>
-
-    <a class="footer-credit" href="https://ahcdigitalsolutions.com/" target="_blank" rel="noopener noreferrer">
-      Bu web sitesi ahcdigitalsolutions.com tarafından hazırlanmıştır.
-    </a>
   </div>
 
   <nav class="footer-nav" aria-label="Alt menü">
-    <a href="#hero">Anasayfa</a>
-    <a href="#hizmetlerimiz">Hizmetlerimiz</a>
+    <a href="index.html#hero">Anasayfa</a>
+    <a href="hizmetler.html">Hizmetlerimiz</a>
     <a href="#ilanlarimiz">İlanlarımız</a>
     <a href="#hakkimizda">Hakkımızda</a>
     <a href="#iletisim">İletişim</a>
@@ -851,5 +665,6 @@
 
   <div class="footer-copy">© 2026 Day House Gayrimenkul</div>
 </footer>
-<script src="assets/app.js?v=20260823-1"></script>
+<script src="assets/app.js?v=20260901-1"></script>
+<script src="assets/location-data.js?v=20260901-prod"></script><script src="assets/portfolio-local.js?v=20260901-prod"></script>
 </body></html>

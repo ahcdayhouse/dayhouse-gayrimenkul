@@ -1,0 +1,9 @@
+(()=>{
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const money=v=>{const n=Number(String(v??'').replace(/[^0-9]/g,''));return n?new Intl.NumberFormat('tr-TR').format(n)+' ₺':esc(v||'Fiyat sorunuz')};
+ const cover=l=>(Array.isArray(l.media)?l.media:[]).find(m=>m.type==='image')?.path||'';
+ const card=l=>`<a class="featured-listing-card" href="${esc(l.url||('ilan.html?id='+encodeURIComponent(l.id)))}"><div class="featured-listing-image" style="${cover(l)?`background-image:url('${cover(l).replace(/'/g,'%27')}')`:''}"><span class="featured-listing-badge">${esc((l.transaction||'PORTFÖY').toUpperCase())}</span></div><div class="featured-listing-body"><div class="featured-listing-loc">${esc([l.city,l.district,l.neighborhood].filter(Boolean).join(' / '))}</div><h3>${esc(l.title||'Day House Gayrimenkul')}</h3><div class="featured-listing-meta">${l.rooms?`<span>${esc(l.rooms)}</span>`:''}${l.area?`<span>${esc(l.area)} m²</span>`:''}${l.type?`<span>${esc(l.type)}</span>`:''}</div><div class="featured-listing-price">${money(l.price)}</div></div></a>`;
+ const load=async()=>{try{const r=await fetch('/data/ilanlar.json?ts='+Date.now(),{cache:'no-store'});return r.ok?await r.json():[]}catch(_){return[]}};
+ const form=document.getElementById('homePropertyFilter');if(form)form.addEventListener('submit',e=>{e.preventDefault();const p=new URLSearchParams(new FormData(form));[...p.entries()].forEach(([k,v])=>{if(!String(v).trim())p.delete(k)});location.href='/ilanlar.html'+(p.toString()?'?'+p.toString():'')});
+ document.addEventListener('DOMContentLoaded',async()=>{const featured=document.getElementById('featuredHome'),grid=document.getElementById('featuredHomeGrid');if(!featured||!grid)return;const items=(await load()).filter(x=>x.featured&&x.published!==false).slice(0,3);if(items.length){grid.innerHTML=items.map(card).join('');featured.hidden=false}else featured.hidden=true});
+})();
