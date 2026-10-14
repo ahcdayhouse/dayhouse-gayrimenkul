@@ -1,1 +1,186 @@
-[]
+[
+  {
+    "id": "dh-1791944015571",
+    "transaction": "Satılık",
+    "type": "Daire",
+    "city": "İstanbul",
+    "district": "Gazi Osman Paşa",
+    "neighborhood": "Karayolları Mahallesi",
+    "listingNo": "DH-01",
+    "title": "FUZUL TEM AVRASYA KONUTLARINDA ACİL SATILIK DAİRE",
+    "price": "16.250.000",
+    "dues": "",
+    "deposit": "",
+    "rooms": "3+1",
+    "bathrooms": "2",
+    "area": "141",
+    "netArea": "110",
+    "floor": "14",
+    "totalFloors": "17",
+    "buildingAge": "6-10",
+    "wcCount": "",
+    "heating": "Merkezi Pay Ölçer",
+    "parking": "Açık + Kapalı Otopark",
+    "usageStatus": "Mülk Sahibi Oturuyor",
+    "creditSuitable": "Krediye Uygun",
+    "siteInside": "Evet",
+    "titleDeed": "Kat Mülkiyeti",
+    "swap": "Yok",
+    "elevator": "Var",
+    "kitchen": "Kapalı",
+    "furnished": "Boş",
+    "balcony": "Var",
+    "balconyCount": "",
+    "facade": "",
+    "structureStatus": "",
+    "structureType": "Betonarme",
+    "zoningStatus": "",
+    "parcel": "",
+    "advisor": "Ferhat Çiçek",
+    "advisorPhone": "0555 013 08 06",
+    "description": "Dairemiz acil satılık olup detay için arayınız",
+    "sahibindenUrl": "",
+    "emlakjetUrl": "",
+    "featured": true,
+    "published": true,
+    "indoorFeatures": [
+      "Fiber İnternet",
+      "Kablo TV / Uydu",
+      "Görüntülü Diafon",
+      "Duşakabin",
+      "Çelik Kapı",
+      "Parke",
+      "Ankastre Mutfak",
+      "Klima",
+      "Spot Aydınlatma"
+    ],
+    "outdoorFeatures": [],
+    "locationFeatures": [
+      "Metroya Yakın",
+      "Metrobüse Yakın",
+      "Otobüs Durağına Yakın",
+      "AVM'ye Yakın",
+      "Markete Yakın",
+      "Okula Yakın",
+      "Hastaneye Yakın",
+      "Parka Yakın",
+      "Toplu Ulaşıma Yakın"
+    ],
+    "createdAt": "2026-10-14T02:13:35.571728+00:00",
+    "updatedAt": "2026-10-14T02:21:42.386915+00:00",
+    "media": [
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015576-11-whatsapp-image-2026-10-12-at-21-12-59.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015571-01-whatsapp-image-2026-10-12-at-21-12-57-1.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (1).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015571-02-whatsapp-image-2026-10-12-at-21-12-57-4.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (4).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015572-03-whatsapp-image-2026-10-12-at-21-12-57-6.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (6).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015573-04-whatsapp-image-2026-10-12-at-21-12-57.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015573-05-whatsapp-image-2026-10-12-at-21-12-58-1.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58 (1).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015574-06-whatsapp-image-2026-10-12-at-21-12-58-3.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58 (3).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015574-07-whatsapp-image-2026-10-12-at-21-12-58.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015575-08-whatsapp-image-2026-10-12-at-21-12-59-2.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (2).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015575-09-whatsapp-image-2026-10-12-at-21-12-59-3.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (3).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1791944015571/1791944015575-10-whatsapp-image-2026-10-12-at-21-12-59-5.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (5).webp"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.57 (1).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (1).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.57 (4).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (4).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.57 (6).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57 (6).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.57.jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.57.jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.58 (1).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58 (1).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.58 (3).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58 (3).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.58.jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.58.jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.59 (2).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (2).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.59 (3).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (3).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.59 (5).jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59 (5).jpeg"
+      },
+      {
+        "path": "/assets/ilanlar/WhatsApp Image 2026-10-12 at 21.12.59.jpeg",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-12 at 21.12.59.jpeg"
+      }
+    ],
+    "url": "/ilan/istanbul/gazi-osman-pasa/karayollari-mahallesi/satilik-daire/fuzul-tem-avrasya-konutlarinda-acil-satilik-daire-dh-01/",
+    "generatedDir": "ilan/istanbul/gazi-osman-pasa/karayollari-mahallesi/satilik-daire/fuzul-tem-avrasya-konutlarinda-acil-satilik-daire-dh-01"
+  }
+]
