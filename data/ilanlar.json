@@ -1,5 +1,169 @@
 [
   {
+    "id": "dh-1793114037730",
+    "transaction": "Satılık",
+    "type": "Daire",
+    "city": "İstanbul",
+    "district": "Sultangazi",
+    "neighborhood": "Yunus Emre Mahallesi",
+    "listingNo": "DH-02",
+    "title": "TEMPOINT SİTESİNDE SATILIK 3+1",
+    "price": "16.300.000 TL",
+    "dues": "",
+    "deposit": "",
+    "rooms": "3+1",
+    "bathrooms": "2",
+    "area": "169",
+    "netArea": "121",
+    "floor": "5",
+    "totalFloors": "12",
+    "buildingAge": "5",
+    "wcCount": "",
+    "heating": "Merkezi Pay Ölçer",
+    "parking": "Açık + Kapalı Otopark",
+    "usageStatus": "Boş",
+    "creditSuitable": "Krediye Uygun",
+    "siteInside": "Evet",
+    "titleDeed": "Kat İrtifakı",
+    "swap": "Yok",
+    "elevator": "Var",
+    "kitchen": "Kapalı",
+    "furnished": "Boş",
+    "balcony": "Var",
+    "balconyCount": "",
+    "facade": "",
+    "structureStatus": "İkinci El",
+    "structureType": "Betonarme",
+    "zoningStatus": "",
+    "parcel": "",
+    "advisor": "Ferhat Çiçek",
+    "advisorPhone": "0555 013 08 06",
+    "description": "Dairemiz 3+1 olup acil satılıktır",
+    "sahibindenUrl": "https://www.sahibinden.com/ilan/emlak-konut-satilik-tempoint-sitesinde-satilik-3-plus1-1347620241/detay",
+    "emlakjetUrl": "https://www.emlakjet.com/ilan/tempoint-sitesinde-satilik-31-20023733",
+    "featured": true,
+    "published": true,
+    "indoorFeatures": [
+      "Kablo TV / Uydu",
+      "Ebeveyn Banyosu",
+      "Duşakabin",
+      "Gömme Dolap",
+      "Çelik Kapı",
+      "Parke",
+      "Ankastre Mutfak",
+      "Klima",
+      "Spot Aydınlatma"
+    ],
+    "outdoorFeatures": [
+      "7/24 Güvenlik",
+      "Açık Otopark",
+      "Kapalı Otopark",
+      "Çocuk Oyun Parkı",
+      "Spor Alanı",
+      "Yüzme Havuzu",
+      "Yangın Merdiveni",
+      "Kapıcı / Görevli"
+    ],
+    "locationFeatures": [
+      "Metroya Yakın",
+      "Metrobüse Yakın",
+      "Otobüs Durağına Yakın",
+      "Cadde Üzeri",
+      "AVM'ye Yakın",
+      "Markete Yakın",
+      "Okula Yakın",
+      "Hastaneye Yakın",
+      "Parka Yakın",
+      "Toplu Ulaşıma Yakın"
+    ],
+    "createdAt": "2026-10-27T15:13:57.730621+00:00",
+    "updatedAt": "2026-10-27T15:13:57.730621+00:00",
+    "media": [
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037731-01-whatsapp-image-2026-10-24-at-18-22-29.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.29.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037731-02-whatsapp-image-2026-10-24-at-18-22-31.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.31.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037732-03-whatsapp-image-2026-10-24-at-18-22-33.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.33.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037732-04-whatsapp-image-2026-10-24-at-18-22-35.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.35.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037732-05-whatsapp-image-2026-10-24-at-18-22-39.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.39.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037733-06-whatsapp-image-2026-10-24-at-18-22-45.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.22.45.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037733-07-whatsapp-image-2026-10-24-at-18-24-12.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.12.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037733-08-whatsapp-image-2026-10-24-at-18-24-19-1.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.19 (1).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037734-09-whatsapp-image-2026-10-24-at-18-24-19.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.19.webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037734-10-whatsapp-image-2026-10-24-at-18-24-20-1.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.20 (1).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037734-11-whatsapp-image-2026-10-24-at-18-24-21-2.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.21 (2).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037735-12-whatsapp-image-2026-10-24-at-18-24-21-3.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.21 (3).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037735-13-whatsapp-image-2026-10-24-at-18-24-22-2.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.22 (2).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037735-14-whatsapp-image-2026-10-24-at-18-24-22-3.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.22 (3).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037736-15-whatsapp-image-2026-10-24-at-18-24-22-4.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.22 (4).webp"
+      },
+      {
+        "path": "/assets/ilanlar/dh-1793114037730/1793114037736-16-whatsapp-image-2026-10-24-at-18-24-22.webp",
+        "type": "image",
+        "name": "WhatsApp Image 2026-10-24 at 18.24.22.webp"
+      }
+    ],
+    "url": "/ilan/istanbul/sultangazi/yunus-emre-mahallesi/satilik-daire/tempoint-sitesinde-satilik-3-1-dh-02/",
+    "generatedDir": "ilan/istanbul/sultangazi/yunus-emre-mahallesi/satilik-daire/tempoint-sitesinde-satilik-3-1-dh-02"
+  },
+  {
     "id": "dh-1791944015571",
     "transaction": "Satılık",
     "type": "Daire",
